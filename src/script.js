@@ -72,7 +72,7 @@ for (let i = 0; i < cnt; i++) {
 }
 docs.setAttribute("position", new three.BufferAttribute(docPosition, 3));
 const star = new three.TextureLoader();
-const str = star.load("/9.png");
+const str = star.load("/2.png");
 str.colorSpace = three.SRGBColorSpace;
 str.magFilter = three.NearestFilter;
 const docsMaterial = new three.PointsMaterial({
